@@ -1,18 +1,18 @@
-#Git branching commands
+# Git branching commands
 
 https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
 
-1. create new repo on git with readme and clone it
+## 1. create new repo on git with readme and clone it
 	- git clone <repourl>
 
-2. check branches
+## 2. check branches
 	- git branch			#only local branches
 	- git branch -a		# remote-tracking and local branches
 	
-3. check remote
+ ## 3. check remote
 	- git remote -v
 
-4. create branch
+## 4. create branch
 	- git branch <featurebranch>
 	
 5. switch to branch
