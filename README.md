@@ -15,18 +15,18 @@ https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
 ## 4. create branch
 	- git branch <featurebranch>
 	
-5. switch to branch
+## 5. switch to branch
 	-  git checkout <featurebranch>
 	
-6. push new branch to remote
+## 6. push new branch to remote
 	- git push --set-upstream origin <featurebranch>
 	
-7. merge branch to master and push to remote
+## 7. merge branch to master and push to remote
 	- git checkout master
 	- git merge <featurebranch>
 	- git push
 	
-8. delete branch
+## 8. delete branch
 	- git branch -d <featurebranch>								#delete local branch
 	- git push origin :<featurebranch>						#push locally deleted branch to remote
 	
